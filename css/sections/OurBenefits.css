@@ -1,0 +1,86 @@
+.OurBenefits {
+    padding-top: 170px;
+
+}
+
+.OurBenefits-title {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.OurBenefits-cards {
+    display: flex;
+    justify-content: center;
+    padding-left: 192px;
+}
+
+.OurBenefits-cards * {
+    color: rgb(0, 0, 0);
+}
+
+.OurBenefits-cards-card {
+    position: relative;
+    z-index: 10;
+    width: 382px;
+    height: 432px;
+    transition: all 0.5s;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.OurBenefits-cards-card::after {
+    position: absolute;
+    bottom: -137px;
+    right: -98px;
+}
+
+.OurBenefits-cards-card:hover {
+    transform: scale(1.05);
+    z-index: 11;
+}
+
+.OurBenefits-cards-card.first {
+    background-color: rgb(174, 214, 241);
+}
+
+.OurBenefits-cards-card.first::after {
+    content: url(./../../assets/benefitsStars/firstBenefitStar.svg);
+}
+
+.OurBenefits-cards-card.second {
+    background-color: rgb(255, 239, 150);
+    top: 25px;
+    left: -60px;
+}
+
+.OurBenefits-cards-card.second::after {
+    content: url(./../../assets/benefitsStars/secondBenefitStar.svg);
+}
+
+.OurBenefits-cards-card.third {
+    background-color: rgb(255, 168, 212);
+    top: 50px;
+    left: -120px;
+}
+
+.OurBenefits-cards-card.third::after {
+    content: url(./../../assets/benefitsStars/thirdBenefitStar.svg);
+    bottom: -129px;
+    right: -161px;
+}
+
+.OurBenefits-cards-card-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.8%;
+    margin-bottom: 20px;
+}
+
+.OurBenefits-cards-card-text {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+}

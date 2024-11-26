@@ -1,0 +1,34 @@
+.FutureAwaits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.FutureAwaits-title {
+    margin: 25px 0 35px;
+}
+
+.FutureAwaits-text {
+    max-width: 502px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+    margin-bottom: 40px;
+}
+
+.FutureAwaits-button {
+    position: relative;
+    padding: 15px 60px;
+    border-radius: 9px;
+    background: rgb(255, 105, 180);
+    transition: all 0.5s;
+}
+.FutureAwaits-button:active {
+    bottom: -2px;
+}
+.FutureAwaits-button:hover {
+    background: rgb(211, 86, 149);
+}

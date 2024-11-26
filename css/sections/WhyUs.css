@@ -1,0 +1,80 @@
+.WhyUs {
+    text-align: center;
+    padding-top: 170px;
+}
+.WhyUs-title{
+    margin-bottom: 20px;
+}
+.WhyUs-CoreValues {
+    display: flex;
+    flex-direction: column;
+}
+
+.WhyUs-CoreValues-value {
+    position: relative;
+    display: flex;
+    column-gap: 71px;
+    border-radius: 15px;
+    padding: 20px 0 0 81px;
+    overflow: hidden;
+    transition: all 0.5s;
+    height: 70px;
+}
+.WhyUs-CoreValues-value::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.WhyUs-CoreValues-value.first {
+    background: rgb(174, 214, 241);
+}
+.WhyUs-CoreValues-value.first::after {
+    content: url(./../../assets/coreValuesStars/firstCoreValueStar.svg);
+}
+.WhyUs-CoreValues-value.second {
+    background: rgb(255, 168, 212);
+}
+.WhyUs-CoreValues-value.second::after {
+    content: url(./../../assets/coreValuesStars/secondCoreValueStar.svg);
+}
+.WhyUs-CoreValues-value.third {
+    background: rgb(255, 232, 107);
+}
+.WhyUs-CoreValues-value.third::after {
+    content: url(./../../assets/coreValuesStars/thirdCoreValueStart.svg);
+}
+.WhyUs-CoreValues-value.openned {
+    height: 290px;
+}
+
+.WhyUs-CoreValues-value * {
+    color: rgb(0, 0, 0);
+}
+
+.WhyUs-CoreValues-value-index {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.2%;
+}
+
+.WhyUs-CoreValues-value-info {
+    max-width: 516px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+}
+
+.WhyUs-CoreValues-value-info-title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.2%;
+}
+
+.WhyUs-CoreValues-value-info-text {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+}

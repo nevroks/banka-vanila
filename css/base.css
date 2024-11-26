@@ -1,0 +1,92 @@
+body {}
+
+main {
+    height: 100vh;
+    overflow-y: auto;
+    /* scroll-snap-type: y mandatory; */
+}
+
+main {
+    scrollbar-width: none;
+    /* для Firefox */
+    -ms-overflow-style: none;
+    /* для IE и Edge */
+}
+
+main::-webkit-scrollbar {
+    display: none;
+    /* для Chrome, Safari и Opera */
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -1.8%;
+}
+
+section,
+header,
+footer {
+    padding: 0 calc(50% - 720px);
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 50px;
+}
+
+.header-navigation {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-navigation-button-resume {
+    position: relative;
+    padding: 10px 30px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+    color: rgb(61, 61, 61);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.header-navigation-button-resume:hover {
+    background: rgb(206, 206, 206);
+}
+
+.header-navigation-button-resume:active {
+    bottom: -2px;
+}
+
+.header-navigation-button-fortune {
+    padding: 15px 60px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+    border-radius: 9px;
+    background: rgb(0, 42, 219);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+}

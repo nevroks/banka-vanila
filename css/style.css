@@ -1,0 +1,15 @@
+@import url(./reset.css);
+@import url(./base.css);
+@import url(./sections/GurtamMeans.css);
+@import url(./sections/WhyUs.css);
+@import url(./sections/OurBenefits.css);
+@import url(./sections/JoinGurtam.css);
+@import url(./sections/FutureAwaits.css);
+
+
+.pagepiling {
+    background-image: url('./../assets/backgroundImg.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+

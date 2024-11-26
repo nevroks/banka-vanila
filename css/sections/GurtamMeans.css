@@ -1,0 +1,86 @@
+.GurtamMeans {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GurtamMeans-title {
+    text-align: center;
+}
+
+.GurtamMeans-text {
+    text-align: center;
+    padding: 20px 0 30px;
+    max-width: 930px;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+}
+
+.GurtamMeans-stats {
+    padding: 0 61px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GurtamMeans-stats-card {
+    position: relative;
+    z-index: 10;
+    max-width: 279px;
+    flex-grow: 1;
+    border-radius: 15px;
+    background: rgb(174, 214, 241);
+    padding: 20px;
+    height: 305px;
+    overflow: hidden;
+}
+
+.GurtamMeans-stats-card * {
+    color: rgb(0, 0, 0);
+}
+
+.GurtamMeans-stats-card::after {
+    content: url(./../assets/statsBgGraficElement.png);
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    bottom: -67px;
+}
+
+
+.GurtamMeans-stats-card-count {
+    margin-bottom: 13px;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 94%;
+    letter-spacing: -2%;
+}
+
+.GurtamMeans-stats-card-text {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -1.2%;
+}
+.GurtamMeans-stats-card-count.years,.GurtamMeans-stats-card-count.offices,.GurtamMeans-stats-card-count.countries{
+    position: relative;
+}
+.GurtamMeans-stats-card-count.years::after,.GurtamMeans-stats-card-count.offices::after,.GurtamMeans-stats-card-count.countries::after{
+    content: url(./../assets/starSvg.svg);
+    position: absolute;
+}
+.GurtamMeans-stats-card-count.years::after{
+    top: -40px;
+    left: 74px;
+}
+.GurtamMeans-stats-card-count.offices::after{
+    top: 4px;
+    left: 36px;
+}
+.GurtamMeans-stats-card-count.countries::after{
+    top: -47px;
+    left: 18px;
+}
