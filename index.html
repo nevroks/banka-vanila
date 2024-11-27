@@ -19,6 +19,12 @@
     <script src="./assets/libs/jquery.pagepiling.js"></script>
     <link rel="stylesheet" href="./assets/libs/jquery.pageliling.min.css">
     <!-- -----adding fullpage js library----- -->
+    <!-- -----adding gsap----- -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+    <!-- -----adding gsap----- -->
     <title>Document</title>
 </head>
 
@@ -123,7 +129,18 @@
                 </div>
             </section>
             <section id="section" class="banka">
-                <div>sd</div>
+                <div class="banka-banka-wrapper">
+                    <div class="banka-banka-lid">
+                        <img src="./assets/banka/bankaLid.svg" alt="">
+                    </div>
+                    <div class="banka-banka-cookies">
+                        <img class="banka-banka-cookies-cookie" src="./assets/banka/bankaCookie.svg" alt="">
+                    </div>
+                    <div class="banka-banka-jar">
+                        <img src="./assets/banka/bankaJar.svg" alt="">
+                    </div>
+
+                </div>
             </section>
         </div>
 
@@ -174,6 +191,7 @@
             console.log(scroll);
         })
     </script>
+    <script src="./js/sections/jar.js"></script>
     <script src="./js/script.js"></script>
     <script async src="./js/sections/WhyUs.js"></script>
     <script src="./js/paralax.js"></script>

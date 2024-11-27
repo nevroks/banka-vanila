@@ -1,0 +1,30 @@
+.banka{
+    position: relative;
+}
+.banka-banka-wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-13%, 0);
+}
+.banka-banka-jar{
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 462px;
+    height: 605px;
+}
+
+.banka-banka-lid{
+    position: absolute;
+    bottom: calc(605px - 258px + 40px);
+    z-index: 11;
+    width: 462px;
+    height: 258px;
+}
+.banka-banka-cookies{
+    position: absolute;
+    z-index: 11;
+}
