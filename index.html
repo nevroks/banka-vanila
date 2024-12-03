@@ -6,14 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
+    <!-- -----adding Inter and Special Elite font families----- -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Elite&display=swap" rel="stylesheet">
+    <!-- -----adding Inter and Special Elite font families----- -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- -----adding Jquery----- -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- -----adding Jquery----- -->
     <!-- -----adding fullpage js library----- -->
     <script src="./assets/libs/jquery.pagepiling.js"></script>
@@ -36,20 +34,47 @@
             <button class="header-navigation-button-resume">Send resume</button>
         </nav>
     </header>
+    <div class="popUps">
+        <div class="popUp-wrapper sendResumePopUp">
+            <div class="popUp-content sendResumePopUp-content">
+                <p class="sendResumePopUp-title">Let us get to know <br> you better!</p>
+                <div class="sendResumePopUp-field">
+                    <label for="sendResumePopUp-stack-input">Stack</label>
+                    <input id="sendResumePopUp-stack-input" type="text" placeholder="choose your stack">
+                </div>
+                <div class="sendResumePopUp-field">
+                    <label for="sendResumePopUp-level-input">Level</label>
+                    <input id="sendResumePopUp-level-input" type="text" placeholder="choose your level">
+                </div>
+                <div class="sendResumePopUp-field">
+                    <label for="sendResumePopUp-email-input">Email</label>
+                    <input id="sendResumePopUp-email-input" type="email" placeholder="ilovecoding@code.com">
+                </div>
+                <div class="sendResumePopUp-add-resume">
+                    <p>Your resume:</p>
+                    <input id="" type="file">
+                </div>
+                <div>
+                    <input type="checkbox" id="sendResumePopUp-agreement"> <label for="sendResumePopUp-agreement">I agree with terms and conditions</label>
+                </div>
+                <div class="sendResumePopUp-learnMore-btn-wrapper">
+                    <button class="sendResumePopUp-learnMore-btn">Learn more</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <main>
         <div class="pagepiling">
             <section id="section" class="FutureAwaits">
                 <img src="./assets/futureAwaits.svg" alt="">
                 <h2 class="FutureAwaits-title">Get your wish for 2025</h2>
-                <p class="FutureAwaits-text">We’ve created a special hr project with career wishes for the following
-                    year. Click on the button and get yours!</p>
+                <p class="FutureAwaits-text">We’ve created a special hr project with career wishes for the following year. Click on the button and get yours!</p>
                 <button class="FutureAwaits-button">Get your fortune</button>
             </section>
             <section id="section" class="GurtamMeans">
                 <h2 class="GurtamMeans-title">Gurtam means “together”</h2>
-                <p class="GurtamMeans-text">Together, we create solutions that effectively save time and money for
-                    businesses.
-                    Gurtam is an IoT software developer with a focus on fleet management</p>
+                <p class="GurtamMeans-text">Together, we create solutions that effectively save time and money for businesses. Gurtam is an IoT software developer with a focus on fleet management</p>
                 <div class="GurtamMeans-stats">
                     <div class="GurtamMeans-stats-card">
                         <p class="GurtamMeans-stats-card-count years">20+</p>
@@ -77,8 +102,7 @@
                         <div class="WhyUs-CoreValues-value-info">
                             <p class="WhyUs-CoreValues-value-info-title">Core value</p>
                             <p class="WhyUs-CoreValues-value-info-text">
-                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam
-                                exists to bring telematics technology closer to people and businesses. </p>
+                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses. </p>
                         </div>
                     </div>
                     <div class="WhyUs-CoreValues-value openned second">
@@ -86,17 +110,14 @@
                         <div class="WhyUs-CoreValues-value-info">
                             <p class="WhyUs-CoreValues-value-info-title">Core value</p>
                             <p class="WhyUs-CoreValues-value-info-text">
-                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam
-                                exists to bring telematics technology closer to people and businesses. </p>
+                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses. </p>
                         </div>
                     </div>
                     <div class="WhyUs-CoreValues-value third">
                         <p class="WhyUs-CoreValues-value-index">03</p>
                         <div class="WhyUs-CoreValues-value-info">
                             <p class="WhyUs-CoreValues-value-info-title">Core value</p>
-                            <p class="WhyUs-CoreValues-value-info-text">Gurtam exists to bring telematics technology
-                                closer to people and businesses. Gurtam exists to bring telematics technology closer to
-                                people and businesses.</p>
+                            <p class="WhyUs-CoreValues-value-info-text">Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses.</p>
                         </div>
                     </div>
                 </div>
@@ -106,24 +127,23 @@
                 <div class="OurBenefits-cards">
                     <div class="OurBenefits-cards-card first">
                         <p class="OurBenefits-cards-card-title">01 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you
-                            well.</p>
+                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
+                        </p>
                     </div>
                     <div class="OurBenefits-cards-card second">
                         <p class="OurBenefits-cards-card-title">02 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you
-                            well.</p>
+                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
+                        </p>
                     </div>
                     <div class="OurBenefits-cards-card third">
                         <p class="OurBenefits-cards-card-title">03 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you
-                            well.</p>
+                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
+                        </p>
                     </div>
             </section>
             <section id="section" class="JoinGurtam">
                 <h2 class="JoinGurtam-title">Join Gurtam</h2>
-                <p class="JoinGurtam-text">Work with us Work with us Work with us Work with us Work with us Work with us
-                    Work with us Work with us Work with us</p>
+                <p class="JoinGurtam-text">Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us</p>
                 <div class="JoinGurtam-button-wrapper">
                     <button class="JoinGurtam-button">Begin your career at Gurtam</button>
                 </div>
@@ -143,8 +163,7 @@
 
                 </div>
             </section>
-        </div>
-
+            </div>
     </main>
     <footer class="footer">
         <div>
@@ -152,11 +171,21 @@
         </div>
         <nav>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
             </ul>
             <div>
                 <button>
@@ -167,7 +196,7 @@
     </footer>
     <script src="./assets/libs/jquery.pagepiling.js"></script>
     <script>
-        $(function () {
+        $(function() {
             console.log("govno");
 
             var scroll = new LocomotiveScroll({
@@ -180,14 +209,12 @@
                     sectionHeight: '100vh'
                 },
             });
-            window.addEventListener('scroll', function (e) {
-                scroll.scrollTo(
-                    {
-                        offset: 600,
-                        duration: 1000,
-                        sectionHeight: '100vh'
-                    }
-                )
+            window.addEventListener('scroll', function(e) {
+                scroll.scrollTo({
+                    offset: 600,
+                    duration: 1000,
+                    sectionHeight: '100vh'
+                })
             })
             console.log(scroll);
         })

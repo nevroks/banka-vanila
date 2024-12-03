@@ -1,0 +1,94 @@
+.sendResumePopUp {}
+
+.sendResumePopUp * {
+    color: #000000;
+}
+
+.sendResumePopUp-content {
+    padding: 60px 20px 35px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background: rgb(233, 233, 233);
+    border-radius: 16px;
+}
+
+.sendResumePopUp-title {
+    font-family: "Special Elite";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -1.2%;
+    text-align: center;
+}
+
+.sendResumePopUp-field {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.sendResumePopUp-field label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.5%;
+}
+
+.sendResumePopUp-field input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.sendResumePopUp-field input::placeholder {
+    color: rgb(123, 123, 123);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.5%;
+}
+
+.sendResumePopUp-add-resume {
+    display: flex;
+    column-gap: 7px;
+    align-items: flex-end;
+}
+
+.sendResumePopUp-add-resume label {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.sendResumePopUp-learnMore-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.sendResumePopUp-learnMore-btn {
+    position: relative;
+    padding: 15px 60px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.5%;
+    border-radius: 9px;
+    background: rgb(0, 42, 219);
+    transition: all 0.5s;
+}
+
+.sendResumePopUp-learnMore-btn:not(:disabled):hover {
+    background: rgb(0, 37, 187);
+}
+
+.sendResumePopUp-learnMore-btn:not(:disabled):active {
+    bottom: -2px;
+}
+
+.sendResumePopUp-learnMore-btn:disabled {
+    cursor: not-allowed;
+    background: rgb(63, 97, 231);
+}

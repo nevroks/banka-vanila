@@ -6,12 +6,9 @@
 @import url(./sections/JoinGurtam.css);
 @import url(./sections/FutureAwaits.css);
 @import url(./sections/Banka.css);
-
-
-
+@import url(./other/sendResumePopUp.css);
 .pagepiling {
     background-image: url('./../assets/backgroundImg.png');
     background-attachment: fixed;
     background-size: cover;
 }
-
