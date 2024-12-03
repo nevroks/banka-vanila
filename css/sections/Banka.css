@@ -1,13 +1,23 @@
 .banka{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .banka-banka-wrapper{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-13%, 0);
+
+    width: 462px;
+    position: relative;
+    bottom: 0px;
+    transform: scale(1);
+
+
+
+    transition: all 0.9s;
+}
+.banka-banka-wrapper.step-1{
+    transform: scale(1.5);
+    bottom: -185px;
+    transition: all 0.5s;
 }
 .banka-banka-jar{
     position: absolute;
@@ -20,11 +30,50 @@
 .banka-banka-lid{
     position: absolute;
     bottom: calc(605px - 258px + 40px);
+    right: 0;
     z-index: 11;
     width: 462px;
     height: 258px;
+
+    transform: rotate(0deg);
+    transition: all 0.5s;
+}
+.banka-banka-lid.upped{
+
+    bottom: calc(605px - 258px + 100px);
+    right: 40px;
+    transition: all 0.5s;
+}
+.banka-banka-lid.step-2{
+    transform: rotate(-45deg);
+    right: 240px;
+    bottom: calc(605px - 258px + 140px);
+    
+    transition: all 1s;
 }
 .banka-banka-cookies{
     position: absolute;
     z-index: 11;
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+    width: 100%;
+}
+.banka-banka-cookies-cookie-chosen-one{
+    display: none;
+    position: absolute;
+    bottom: 115px;
+}
+
+.banka-banka-cookies-cookie-chosen-one.step-2{
+    display: block;
+    transition: all 0.5s;
+}
+.banka-banka-cookies-cookie-chosen-one.step-3{
+    
+    bottom: 500px;
+
+    transform: scale(1.4);
+
+    transition: all 1s;
 }
