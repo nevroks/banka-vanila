@@ -34,7 +34,7 @@
             <button class="header-navigation-button-resume">Send resume</button>
         </nav>
     </header>
-    <div class="popUps">
+    <!-- <div class="popUps">
         <div class="popUp-wrapper sendResumePopUp">
             <div class="popUp-content sendResumePopUp-content">
                 <p class="sendResumePopUp-title">Let us get to know <br> you better!</p>
@@ -63,106 +63,116 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
     <main>
-        <div class="pagepiling">
-            <section id="section" class="FutureAwaits">
-                <img src="./assets/futureAwaits.svg" alt="">
-                <h2 class="FutureAwaits-title">Get your wish for 2025</h2>
-                <p class="FutureAwaits-text">We’ve created a special hr project with career wishes for the following year. Click on the button and get yours!</p>
-                <button class="FutureAwaits-button">Get your fortune</button>
-            </section>
-            <section id="section" class="GurtamMeans">
-                <h2 class="GurtamMeans-title">Gurtam means “together”</h2>
-                <p class="GurtamMeans-text">Together, we create solutions that effectively save time and money for businesses. Gurtam is an IoT software developer with a focus on fleet management</p>
-                <div class="GurtamMeans-stats">
-                    <div class="GurtamMeans-stats-card">
-                        <p class="GurtamMeans-stats-card-count years">20+</p>
-                        <p class="GurtamMeans-stats-card-text">YEARS OLD</p>
-                    </div>
-                    <div class="GurtamMeans-stats-card">
-                        <p class="GurtamMeans-stats-card-count">300+</p>
-                        <p class="GurtamMeans-stats-card-text">EMPLOYEES</p>
-                    </div>
-                    <div class="GurtamMeans-stats-card">
-                        <p class="GurtamMeans-stats-card-count offices">4</p>
-                        <p class="GurtamMeans-stats-card-text">OFFICES WORLDWIDE</p>
-                    </div>
-                    <div class="GurtamMeans-stats-card">
-                        <p class="GurtamMeans-stats-card-count countries">150+</p>
-                        <p class="GurtamMeans-stats-card-text">COUNTRIES OPERATING IN</p>
-                    </div>
-                </div>
-            </section>
-            <section id="section" class="WhyUs">
-                <h2 class="WhyUs-title">Why Us</h2>
-                <div class="WhyUs-CoreValues">
-                    <div class="WhyUs-CoreValues-value first">
-                        <p class="WhyUs-CoreValues-value-index">01</p>
-                        <div class="WhyUs-CoreValues-value-info">
-                            <p class="WhyUs-CoreValues-value-info-title">Core value</p>
-                            <p class="WhyUs-CoreValues-value-info-text">
-                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses. </p>
+        <div class="pagepilling ">
+            <canvas class="snowflakes" id="snowflakes"></canvas>
+            <div class="pagepiling wrapper">
+                <section id="section" class="FutureAwaits section">
+                    <img src="./assets/futureAwaits.svg" alt="">
+                    <h2 class="FutureAwaits-title">Get your wish for 2025</h2>
+                    <p class="FutureAwaits-text">
+                        We’ve created a special hr project with career wishes for the following year. Click on the button and get yours!
+                    </p>
+                    <button class="FutureAwaits-button">Get your fortune</button>
+                </section>
+                <section id="section" class="GurtamMeans">
+                    <h2 class="GurtamMeans-title">Gurtam means “together”</h2>
+                    <p class="GurtamMeans-text">
+                        Together, we create solutions that effectively save time and money for businesses. Gurtam is an IoT software developer with a focus on fleet management
+                    </p>
+                    <div class="GurtamMeans-stats">
+                        <div class="GurtamMeans-stats-card">
+                            <p class="GurtamMeans-stats-card-count years">20+</p>
+                            <p class="GurtamMeans-stats-card-text">YEARS OLD</p>
+                        </div>
+                        <div class="GurtamMeans-stats-card">
+                            <p class="GurtamMeans-stats-card-count">300+</p>
+                            <p class="GurtamMeans-stats-card-text">EMPLOYEES</p>
+                        </div>
+                        <div class="GurtamMeans-stats-card">
+                            <p class="GurtamMeans-stats-card-count offices">4</p>
+                            <p class="GurtamMeans-stats-card-text">OFFICES WORLDWIDE</p>
+                        </div>
+                        <div class="GurtamMeans-stats-card">
+                            <p class="GurtamMeans-stats-card-count countries">150+</p>
+                            <p class="GurtamMeans-stats-card-text">COUNTRIES OPERATING IN</p>
                         </div>
                     </div>
-                    <div class="WhyUs-CoreValues-value openned second">
-                        <p class="WhyUs-CoreValues-value-index">02</p>
-                        <div class="WhyUs-CoreValues-value-info">
-                            <p class="WhyUs-CoreValues-value-info-title">Core value</p>
-                            <p class="WhyUs-CoreValues-value-info-text">
-                                Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses. </p>
+                </section>
+                <section id="section" class="WhyUs">
+                    <h2 class="WhyUs-title">Why Us</h2>
+                    <div class="WhyUs-CoreValues">
+                        <div id="1" class="WhyUs-CoreValues-value first openned">
+                            <p class="WhyUs-CoreValues-value-index">01</p>
+                            <div class="WhyUs-CoreValues-value-info">
+                                <p class="WhyUs-CoreValues-value-info-title">Core value</p>
+                                <p class="WhyUs-CoreValues-value-info-text"> Gurtam exists to bring telematics technology closer to people and businesses.</p>
+                            </div>
+                        </div>
+                        <div id="2" class="WhyUs-CoreValues-value second  ">
+                            <p class="WhyUs-CoreValues-value-index">02</p>
+                            <div class="WhyUs-CoreValues-value-info">
+                                <p class="WhyUs-CoreValues-value-info-title">Core value</p>
+                                <p class="WhyUs-CoreValues-value-info-text"> Gurtam exists to bring telematics technology closer to people and businesses.</p>
+                            </div>
+                        </div>
+                        <div id="3" class="WhyUs-CoreValues-value third ">
+                            <p class="WhyUs-CoreValues-value-index">03</p>
+                            <div class="WhyUs-CoreValues-value-info">
+                                <p class="WhyUs-CoreValues-value-info-title">Core value</p>
+                                <p class="WhyUs-CoreValues-value-info-text"> Gurtam exists to bring telematics technology closer to people and businesses.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="WhyUs-CoreValues-value third">
-                        <p class="WhyUs-CoreValues-value-index">03</p>
-                        <div class="WhyUs-CoreValues-value-info">
-                            <p class="WhyUs-CoreValues-value-info-title">Core value</p>
-                            <p class="WhyUs-CoreValues-value-info-text">Gurtam exists to bring telematics technology closer to people and businesses. Gurtam exists to bring telematics technology closer to people and businesses.</p>
+                </section>
+                <section id="section" class="OurBenefits">
+                    <h2 class="OurBenefits-title">Our Benefits</h2>
+                    <div class="OurBenefits-cards">
+                        <div class="OurBenefits-cards-card first">
+                            <p class="OurBenefits-cards-card-title">01 Benefit</p>
+                            <p class="OurBenefits-cards-card-text">
+                                We are really cool and will pay you a lot and feed you well.
+                            </p>
                         </div>
+                        <div class="OurBenefits-cards-card second">
+                            <p class="OurBenefits-cards-card-title">02 Benefit</p>
+                            <p class="OurBenefits-cards-card-text">
+                                We are really cool and will pay you a lot and feed you well.
+                            </p>
+                        </div>
+                        <div class="OurBenefits-cards-card third">
+                            <p class="OurBenefits-cards-card-title">03 Benefit</p>
+                            <p class="OurBenefits-cards-card-text">
+                                We are really cool and will pay you a lot and feed you well.
+                            </p>
+                        </div>
+                </section>
+                <section id="section" class="JoinGurtam">
+                    <h2 class="JoinGurtam-title">Join Gurtam</h2>
+                    <p class="JoinGurtam-text">
+                        Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us
+                    </p>
+                    <div class="JoinGurtam-button-wrapper">
+                        <button class="JoinGurtam-button">Begin your career at Gurtam</button>
                     </div>
-                </div>
-            </section>
-            <section id="section" class="OurBenefits">
-                <h2 class="OurBenefits-title">Our Benefits</h2>
-                <div class="OurBenefits-cards">
-                    <div class="OurBenefits-cards-card first">
-                        <p class="OurBenefits-cards-card-title">01 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
-                        </p>
-                    </div>
-                    <div class="OurBenefits-cards-card second">
-                        <p class="OurBenefits-cards-card-title">02 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
-                        </p>
-                    </div>
-                    <div class="OurBenefits-cards-card third">
-                        <p class="OurBenefits-cards-card-title">03 Benefit</p>
-                        <p class="OurBenefits-cards-card-text">We are really cool and will pay you a lot and feed you well.
-                        </p>
-                    </div>
-            </section>
-            <section id="section" class="JoinGurtam">
-                <h2 class="JoinGurtam-title">Join Gurtam</h2>
-                <p class="JoinGurtam-text">Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us Work with us</p>
-                <div class="JoinGurtam-button-wrapper">
-                    <button class="JoinGurtam-button">Begin your career at Gurtam</button>
-                </div>
-            </section>
-            <section id="section" class="banka">
-                <div class="banka-banka-wrapper">
-                    <div class="banka-banka-lid">
-                        <img src="./assets/banka/bankaLid.svg" alt="">
-                    </div>
-                    <div class="banka-banka-cookies">
-                        <img class="banka-banka-cookies-cookie-chosen-one" src="./assets/banka/bankaCookie.svg" alt="">
-                        <img class="banka-banka-cookies-cookie" src="./assets/banka/bankaCookie.svg" alt="">
-                    </div>
-                    <div class="banka-banka-jar">
-                        <img src="./assets/banka/bankaJar.svg" alt="">
-                    </div>
+                </section>
+                <section id="section" class="banka">
+                    <div class="banka-banka-wrapper">
+                        <div class="banka-banka-lid">
+                            <img src="./assets/banka/bankaLid.svg" alt="">
+                        </div>
+                        <div class="banka-banka-cookies">
+                            <img class="banka-banka-cookies-cookie-chosen-one" src="./assets/banka/bankaCookie.svg" alt="">
+                            <img class="banka-banka-cookies-cookie" src="./assets/banka/bankaCookie.svg" alt="">
+                        </div>
+                        <div class="banka-banka-jar">
+                            <img src="./assets/banka/bankaJar.svg" alt="">
+                        </div>
 
+                    </div>
+                </section>
                 </div>
-            </section>
             </div>
     </main>
     <footer class="footer">
@@ -170,34 +180,65 @@
             <p>© gurtam 2024</p>
         </div>
         <nav>
-            <ul>
-                <li>
-                    <a href=""></a>
+            <ul class="social">
+                <li class="social-item">
+                    <div class="img img-hide">
+                        <img src="./assets//scow/snowYoutube.svg" alt="" class="img-items img-hide">
+                    </div>
+                    <canvas class="snowdrift" id="snowdriftYoutube"></canvas>
+                    <a href="">
+                        <img src="./assets/social/Group 1000004707.svg" alt="youtube" class="social-link">
+                    </a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="social-item ">
+                    <div class="img img-hide">
+                        <img src="./assets//scow/snowSoc.svg" alt="img-hide">
+                    </div>
+                    <a href="">
+                        <img src="./assets/social/Group 1000004708.svg" alt="soc" class="social-link">
+                    </a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="social-item">
+                    <div class="img img-hide">
+                        <img src="./assets//scow/snowYoutube.svg" alt="" class="img-items img-hide">
+                    </div>
+                    <a href="">
+                        <img src="./assets/social/Group 1000004709.svg" alt="LinkedIn" class="social-link">
+                    </a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="social-item">
+                    <div class="img img-hide">
+                        <img src="./assets//scow/snowSoc.svg" alt="img-hide">
+                    </div>
+                    <a href="">
+                        <img src="./assets/social/Group 1000004710.svg" alt="instagram" class="social-link">
+                    </a>
                 </li>
-                <li>
-                    <a href=""></a>
+                <li class="social-item">
+                    <div class="img img-hide">
+                        <img src="./assets//scow/snowYoutube.svg" alt="" class="img-items img-hide">
+                    </div>
+                    <a href="">
+                        <img src="./assets/social/Group 1000004711.svg" alt="facebook" class="social-link">
+                    </a>
                 </li>
             </ul>
-            <div>
-                <button>
-                    <img src="" alt="">
-                </button>
+
+
+            <div class="showButton social-item-show-Button" id="toggleSnow">
+                <div class="img img-hide">
+                    <img src="./assets/social/showToButtonShow.svg" alt="showToButtonShow" class="img-items img-hide">
+                </div>
+                <div>
+                    <img src="./assets/showButton.svg" alt="showButton">
+                </div>
             </div>
+
         </nav>
     </footer>
     <script src="./assets/libs/jquery.pagepiling.js"></script>
     <script>
         $(function() {
-            console.log("govno");
 
             var scroll = new LocomotiveScroll({
                 el: document.querySelector('#section'),
@@ -216,13 +257,16 @@
                     sectionHeight: '100vh'
                 })
             })
-            console.log(scroll);
         })
     </script>
     <script src="./js/sections/jar.js"></script>
+    <script src="./js/handlerSnow.js"></script>
+    <script src="./js/smoothScrolling.js"></script>
+    <script src="./js/replaseAnimated.js"></script>
+    <script src="./js/snow.js"></script>
     <script src="./js/script.js"></script>
     <script async src="./js/sections/WhyUs.js"></script>
-    <script src="./js/paralax.js"></script>
+    <!-- <script src="./js/paralax.js"></script> -->
 </body>
 
 </html>

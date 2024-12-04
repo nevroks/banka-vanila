@@ -1,6 +1,9 @@
 .WhyUs {
     text-align: center;
     padding-top: 170px;
+    height: 900px;
+    overflow-y: auto;
+    position: relative; 
 }
 .WhyUs-title{
     margin-bottom: 20px;
@@ -8,6 +11,7 @@
 .WhyUs-CoreValues {
     display: flex;
     flex-direction: column;
+    height: 600px;
 }
 
 .WhyUs-CoreValues-value {
@@ -19,7 +23,13 @@
     overflow: hidden;
     transition: all 0.5s;
     height: 70px;
+    transition: height 1s ease
 }
+
+.WhyUs-CoreValues-value.openned {
+    height: 290px;
+} 
+
 .WhyUs-CoreValues-value::after {
     position: absolute;
     right: 0;
@@ -42,9 +52,6 @@
 }
 .WhyUs-CoreValues-value.third::after {
     content: url(./../../assets/coreValuesStars/thirdCoreValueStart.svg);
-}
-.WhyUs-CoreValues-value.openned {
-    height: 290px;
 }
 
 .WhyUs-CoreValues-value * {

@@ -169,5 +169,5 @@ input[type="checkbox"]:checked+label:after {
 
 .footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0%;
 }
