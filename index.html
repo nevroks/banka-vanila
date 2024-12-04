@@ -34,7 +34,7 @@
             <button class="header-navigation-button-resume">Send resume</button>
         </nav>
     </header>
-    <!-- <div class="popUps">
+    <div class="popUps">
         <div class="popUp-wrapper sendResumePopUp">
             <div class="popUp-content sendResumePopUp-content">
                 <p class="sendResumePopUp-title">Let us get to know <br> you better!</p>
@@ -52,18 +52,19 @@
                 </div>
                 <div class="sendResumePopUp-add-resume">
                     <p>Your resume:</p>
-                    <input id="" type="file">
+                    <input id="sendResumePopUp-resume-input" type="file">
                 </div>
                 <div>
                     <input type="checkbox" id="sendResumePopUp-agreement"> <label for="sendResumePopUp-agreement">I agree with terms and conditions</label>
                 </div>
                 <div class="sendResumePopUp-learnMore-btn-wrapper">
-                    <button class="sendResumePopUp-learnMore-btn">Learn more</button>
+                    <button disabled class="sendResumePopUp-learnMore-btn">Learn more</button>
                 </div>
 
             </div>
+            <script src="./js/resumeForm.js"></script>
         </div>
-    </div> -->
+    </div>
     <main>
         <div class="pagepilling ">
             <canvas class="snowflakes" id="snowflakes"></canvas>
@@ -266,7 +267,7 @@
     <script src="./js/snow.js"></script>
     <script src="./js/script.js"></script>
     <script async src="./js/sections/WhyUs.js"></script>
-    <!-- <script src="./js/paralax.js"></script> -->
+    <script async src="./js/sections/popUps.js"></script>
 </body>
 
 </html>
